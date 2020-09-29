@@ -35,7 +35,7 @@ export class TodoService {
      return of(this.todos)
    }
 
-   assTodo(todo: Todo) {
+   addTodo(todo: Todo) {
      this.todos.push(todo);
    }
 
